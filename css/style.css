@@ -294,10 +294,24 @@ section {
     align-items: center;
 }
 
+.hero-image {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .hero-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    animation: float 6s ease-in-out infinite;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.hero-image:hover img {
+    transform: scale(1.02);
 }
 
 @keyframes float {
