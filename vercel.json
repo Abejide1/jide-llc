@@ -20,7 +20,7 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "^/(?<path>.*)$",
       "dest": "/index.html"
     }
   ]
