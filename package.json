@@ -1,0 +1,29 @@
+{
+  "name": "jide-llc",
+  "version": "1.0.0",
+  "description": "Professional website for JIDE LLC - Technology Solutions",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abejide1/jide-llc.git"
+  },
+  "keywords": [
+    "web-development",
+    "hosting",
+    "database-solutions",
+    "small-business"
+  ],
+  "author": "JIDE LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abejide1/jide-llc/issues"
+  },
+  "homepage": "https://github.com/Abejide1/jide-llc#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
